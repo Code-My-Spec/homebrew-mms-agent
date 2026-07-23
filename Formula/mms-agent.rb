@@ -1,14 +1,14 @@
 class MmsAgent < Formula
   desc "MMS Agent — local pairing companion for Market My Spec"
   homepage "https://marketmyspec.com"
-  version "0.3.0"
+  version "0.4.0"
   license "Proprietary"
 
   depends_on :macos
   depends_on arch: :arm64
 
-  url "https://github.com/Code-My-Spec/market_my_spec/releases/download/v0.3.0/market_my_spec_agent_macos_m1"
-  sha256 "12fb63c09317488f0f6aeed4b6464d07fa657369a12d6f2f83cf762155435bfc"
+  url "https://github.com/Code-My-Spec/market_my_spec/releases/download/v0.4.0/market_my_spec_agent_macos_m1"
+  sha256 "bea9cbbddaba6dd798749c132e2044c2f01c1fe289fd32f409fc8f5c229662e6"
 
   def install
     src = stable.url.split("/").last
